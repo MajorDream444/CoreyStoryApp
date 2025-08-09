@@ -1,0 +1,69 @@
+Replit Prompt for App Development
+
+Project Title:
+“Mentorship and Storytelling App with Video Generation (Corey Story)”
+
+Objective:
+Build a fully functional app in three days that integrates Minimax’s text-to-video and image-to-video generation platform. The app will feature mentorship tools, story creation, and journaling for youth. It will allow users to input text and images, customize outputs, and download generated content.
+
+Key Features to Include:
+	1.	User Authentication:
+	•	Allow users to sign up, log in, and manage profiles.
+	•	Use Firebase or Auth0 for simple authentication.
+	2.	User Input Interface:
+	•	Create a clean UI for users to input text or upload images.
+	•	Enable input customization (e.g., video ratio, style preferences).
+	3.	Minimax Integration:
+	•	Implement provided API snippets for:
+	•	Task creation for video generation.
+	•	Task status checking.
+	•	Video result retrieval.
+	•	Enhanced error handling.
+	•	Video downloading.
+	4.	Airtable Backend:
+	•	Connect Airtable to store user inputs, preferences, and video outputs.
+	•	Structure tables for “User Data,” “Prompts,” and “System Configurations.”
+	5.	Workflow Automation:
+	•	Automate Minimax task handling using Make.com or a Python backend.
+	•	Use webhooks to notify users when video generation is complete.
+	6.	Video Review and Output:
+	•	Create a preview page where users can review the generated videos.
+	•	Allow users to download or share videos directly from the app.
+	7.	Personalized Mentor Stories:
+	•	Develop a library of pre-set mentor advice tied to user stories.
+	•	Enable dynamic mentor responses using OpenAI or Google’s LLM for text generation.
+	8.	Journaling and NFT Creation:
+	•	Add journaling features where users can log daily reflections.
+	•	Generate downloadable NFT versions of user stories.
+	9.	Admin Dashboard:
+	•	Build an admin panel for managing content, tracking app activity, and updating settings.
+	10.	UI/UX Design:
+	•	Use a minimalistic, futuristic design with easy navigation.
+	•	Ensure the app is mobile-responsive.
+
+Tech Stack:
+	•	Frontend: React.js (for dynamic UI).
+	•	Backend: Node.js/Express or Flask (for API handling and workflows).
+	•	Database: Airtable (connected via API).
+	•	Automation: Make.com (to handle repetitive tasks).
+	•	Video Generation: Minimax API.
+	•	Authentication: Firebase or Auth0.
+
+Action Plan:
+	1.	Day 1:
+	•	Set up project structure in Replit.
+	•	Build basic frontend (user login, input forms).
+	•	Integrate Airtable and Minimax APIs for backend logic.
+	•	Test video generation workflow.
+	2.	Day 2:
+	•	Enhance UI with customization options for inputs.
+	•	Implement journaling and mentor story components.
+	•	Add video preview and download functionality.
+	•	Set up automation workflows using Make.com.
+	3.	Day 3:
+	•	Finalize UI/UX design.
+	•	Test all integrations end-to-end.
+	•	Debug and optimize for performance.
+	•	Deploy app for user testing.
+
+Would you like me to refine or expand this for specific tasks or components?
