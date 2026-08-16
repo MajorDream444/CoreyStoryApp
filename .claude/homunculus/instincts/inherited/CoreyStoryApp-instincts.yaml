@@ -1,0 +1,305 @@
+# Instincts generated from https://github.com/MajorDream444/CoreyStoryApp
+# Generated: 2026-07-19T11:37:54.089Z
+# Version: 2.0
+# NOTE: This file supplements (does not replace) any existing curated instincts.
+# High-confidence manually curated instincts should be preserved alongside these.
+
+---
+id: CoreyStoryApp-commit-conventional
+trigger: "when writing a commit message"
+confidence: 0.85
+domain: git
+source: repo-analysis
+source_repo: https://github.com/MajorDream444/CoreyStoryApp
+---
+
+# CoreyStoryApp Commit Conventional
+
+## Action
+
+Use conventional commit format with prefixes: chore
+
+## Evidence
+
+- 4 commits analyzed
+- Detected conventional commit pattern
+- Examples: chore: add production readiness control (AGENTS.md), chore: add production readiness control (CLAUDE.md)
+
+---
+id: CoreyStoryApp-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/MajorDream444/CoreyStoryApp
+---
+
+# CoreyStoryApp Commit Length
+
+## Action
+
+Write moderate-length commit messages (~62 characters)
+
+## Evidence
+
+- Average commit message length: 62 chars
+- Based on 4 commits
+
+---
+id: CoreyStoryApp-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/MajorDream444/CoreyStoryApp
+---
+
+# CoreyStoryApp Naming Files
+
+## Action
+
+Use snake_case naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: snake_case
+
+---
+id: CoreyStoryApp-import-relative
+trigger: "when importing modules"
+confidence: 0.75
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/MajorDream444/CoreyStoryApp
+---
+
+# CoreyStoryApp Import Relative
+
+## Action
+
+Use relative imports for project files
+
+## Evidence
+
+- Import analysis shows relative import pattern
+- Example: import { x } from '../lib/x'
+
+---
+id: CoreyStoryApp-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/MajorDream444/CoreyStoryApp
+---
+
+# CoreyStoryApp Export Style
+
+## Action
+
+Prefer named exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: named
+
+---
+id: CoreyStoryApp-test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/MajorDream444/CoreyStoryApp
+---
+
+# CoreyStoryApp Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
+---
+id: CoreyStoryApp-workflow-add-production-readiness-control
+trigger: "when doing add production readiness control"
+confidence: 0.7
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/MajorDream444/CoreyStoryApp
+---
+
+# CoreyStoryApp Workflow Add Production Readiness Control
+
+## Action
+
+Follow the add-production-readiness-control workflow:
+1. Identify the component or process requiring production readiness documentation.
+2. Create or update a markdown file with production readiness information (e.g., AGENTS.md, CLAUDE.md, .github/PRODUCTION_READINESS.md, .github/pull_request_template.md).
+3. Commit the changes with a message indicating production readiness control.
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~4x per month
+- Files: *.md, .github/PRODUCTION_READINESS.md, .github/pull_request_template.md
+
+---
+id: coreystoryapp-instinct-file-naming
+trigger: "When creating a new file in the repository"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: MajorDream444/CoreyStoryApp
+---
+
+# Coreystoryapp Instinct File Naming
+
+## Action
+
+Name the file using snake_case convention
+
+## Evidence
+
+- Pattern in namingConventions.files: snake_case
+
+---
+id: coreystoryapp-instinct-function-naming
+trigger: "When defining a new function"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: MajorDream444/CoreyStoryApp
+---
+
+# Coreystoryapp Instinct Function Naming
+
+## Action
+
+Name the function using camelCase convention
+
+## Evidence
+
+- Pattern in namingConventions.functions: camelCase
+
+---
+id: coreystoryapp-instinct-class-naming
+trigger: "When defining a new class"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: MajorDream444/CoreyStoryApp
+---
+
+# Coreystoryapp Instinct Class Naming
+
+## Action
+
+Name the class using PascalCase convention
+
+## Evidence
+
+- Pattern in namingConventions.classes: PascalCase
+
+---
+id: coreystoryapp-instinct-constant-naming
+trigger: "When declaring a constant"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: MajorDream444/CoreyStoryApp
+---
+
+# Coreystoryapp Instinct Constant Naming
+
+## Action
+
+Name the constant using SCREAMING_SNAKE_CASE convention
+
+## Evidence
+
+- Pattern in namingConventions.constants: SCREAMING_SNAKE_CASE
+
+---
+id: coreystoryapp-instinct-import-style
+trigger: "When importing modules in TypeScript files"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: MajorDream444/CoreyStoryApp
+---
+
+# Coreystoryapp Instinct Import Style
+
+## Action
+
+Use relative import paths
+
+## Evidence
+
+- Pattern in importStyle: relative
+
+---
+id: coreystoryapp-instinct-export-style
+trigger: "When exporting from a module"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: MajorDream444/CoreyStoryApp
+---
+
+# Coreystoryapp Instinct Export Style
+
+## Action
+
+Use named exports
+
+## Evidence
+
+- Pattern in exportStyle: named
+
+---
+id: coreystoryapp-instinct-git-commit-format
+trigger: "When making a commit"
+confidence: 0.9
+domain: git
+source: repo-analysis
+source_repo: MajorDream444/CoreyStoryApp
+---
+
+# Coreystoryapp Instinct Git Commit Format
+
+## Action
+
+Format the commit message using the conventional commit style with a 'chore' prefix (e.g., 'chore: ...')
+
+## Evidence
+
+- Seen in commit: 'chore: add production readiness control (AGENTS.md)'
+- Pattern in commits.prefixes: ['chore']
+
+---
+id: coreystoryapp-instinct-add-production-readiness-control
+trigger: "When someone wants to introduce or update production readiness documentation or checklists for a component or workflow"
+confidence: 0.9
+domain: workflow
+source: repo-analysis
+source_repo: MajorDream444/CoreyStoryApp
+---
+
+# Coreystoryapp Instinct Add Production Readiness Control
+
+## Action
+
+Create or update a markdown file (e.g., AGENTS.md, CLAUDE.md, .github/PRODUCTION_READINESS.md, .github/pull_request_template.md) with production readiness information and commit with a message indicating production readiness control
+
+## Evidence
+
+- Workflow: add-production-readiness-control
+- Seen in commit: 'chore: add production readiness control (AGENTS.md)'
+
